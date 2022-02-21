@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Oregano' rel='stylesheet'>
+     <!--fontawesome CSS file-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Bootsrap cdn -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+     <!--jquery library-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+     <!--javascript bootstrap-->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+
+     <style>
+          .card-title{
+             font-size: 6vw;
+         }
+         .row{
+             padding: 2%;
+         }
+         .info{
+             font-size: 8vh;
+             color:#471f08;
+         }
+         .info-p{
+             font-size: large;
+             color:#7c4a09;
+         }
+        .card1{
+            background-color: rgba(243, 243, 243, 0.567);
+            border: none;
+           box-shadow: 0px 0px 4px 0px grey;
+        }
+     </style>
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <img src="logo4.png" width="4.5%" alt="Background image">
+        <a class="navbar-brand" href="index.html" style="font-family:'Oregano'">
+            Exclusive Cafe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="navbar-nav ml-auto" style="font-family:Arial, Helvetica, sans-serif">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   <div class="card">
+        <img src="bg.jpg" class="card-img" alt="cafe background">
+        <div class="card-img-overlay">
+
+            <div class="row">
+             <div class="text-left col-12 offset-0">
+                    <p style="font-family:'Gill Sans'; font-weight:bold; color:#754315;">
+                        A cafe serving the best quality</p>
+                    <p class="card-title" style="font-family:'Arial'; font-weight: bolder; color:#4d200b;">
+                     Discover the Real Taste...</p>
+                     <a href="menu.html">
+                    <button class="btn btn-warning" type="button" style="color:#693a03;">
+                    Explore <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                    </button>
+                    </a>
+             </div>
+            </div>
+            <!--row 1 ends here-->
+
+            <br><br><br>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <div class="card card1">
+                        <div class="card-body text-center">
+                            <span class="card-title"><i class="fa fa-map-marker info" aria-hidden="true"> </i></span>
+                            <p class="info-p">Blue Plaza, North Court <br><b>Mumbai-512000</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-1 col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <div class="card card1">
+                        <div class="card-body text-center">
+                            <span class="card-title"><i class="fa fa-clock-o info" aria-hidden="true"></i></span>
+                            <p class="info-p">Monday to Saturday<br><b>(10:00 AM to 8:00 PM)</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-1 col-md-8 offset-md-2 col-sm-12 offset-sm-0">
+                    <div class="card card1">
+                        <div class="card-body text-center">
+                            <span class="card-title"><i class="fa fa-whatsapp info" aria-hidden="true"></i></span>
+                            <p class="info-p">For any queries<br><b>Whatsapp us: 20255 50163</b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--row 2 ends here-->
+
+            <div class="row">
+                <div class="col-lg-12 offset-lg-0 col-md-7 offset-md-5 col-sm-12 offset-sm-0">
+                <!--Social media links-->
+                <div style="display:flex;font-size: x-large;">
+                    <a class="nav-link text-warning bg-dark" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="nav-link text-warning bg-dark" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            </div>
+    </div>
+       
+    <!--card ends here-->
+    </div>
+</body>
+</html>

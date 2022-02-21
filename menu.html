@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!--fontawesome CSS file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootsrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <!--jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <!--javascript bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <style>
+        body{
+            background: url("images/food.jpg") no-repeat;
+        }
+        .menu-title{
+            color:black;
+        }
+        .menu-title:hover{
+            color: black;
+            text-decoration: none;
+        }
+        .card:hover{
+            box-shadow: 0px 0px 5px 0px grey;
+        }
+        h3{
+            padding:1%;
+            background-color: rgb(212, 212, 212);
+            color:rgb(16, 7, 68);
+        }
+    </style>
+</head>
+<body>
+     <!--Navigation bar-->
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <img src="logo4.png" width="4.5%" alt="Background image">
+        <a class="navbar-brand" href="index.html" style="font-family:'Oregano'">
+            Exclusive Cafe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="navbar-nav ml-auto" style="font-family:Arial, Helvetica, sans-serif">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+     <!--Navigation bar ends here-->
+    
+     <!--categories-->
+     <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+                    <img src="1.jpg" class="img-fluid" alt="Menu">
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-1 offset-lg-0 col-md-4 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0">
+                    <a href="#coffee" class="menu-title">
+                    <div class="card">
+                    <img src="coffee1.png" class="img-fluid card-img-top" alt="Coffee">
+                    <div class="card-body">
+                       <p>Coffee</p>
+                    </div>
+                   </div>
+                   </a>
+                </div>
+                <div class="col-lg-1 offset-lg-0 col-md-4 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0">
+                    <a href="#pasta" class="menu-title">
+                    <div class="card">
+                    <img src="pasta.jpg" class="img-fluid card-img-top" alt="Pasta">
+                    <div class="card-body">
+                       <p>Pasta</p>
+                    </div>
+                   </div>
+                   </a>
+                </div>
+                <div class="col-lg-1 offset-lg-0 col-md-4 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0">
+                    <a href="#pizza" class="menu-title">
+                    <div class="card">
+                    <img src="pizza.jpg" class="img-fluid card-img-top" alt="Pizza">
+                    <div class="card-body">
+                       <p>Pizza</p>
+                    </div>
+                   </div>
+                   </a>
+                </div>
+                <div class="col-lg-1 offset-lg-0 col-md-4 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0">
+                    <a href="#burger" class="menu-title">
+                    <div class="card">
+                    <img src="burger.jpg" class="img-fluid card-img-top" alt="Burger">
+                    <div class="card-body">
+                       <p>Burger</p>
+                    </div>
+                   </div>
+                   </a>
+                </div>
+    
+                <div class="col-lg-1 offset-lg-0 col-md-4 offset-md-0 col-sm-2 offset-sm-0 col-xs-2 offset-xs-0">
+                    <a href="#icecream" class="menu-title">
+                    <div class="card">
+                    <img src="icecream (2).jpg" class="img-fluid card-img-top" alt="Ice-Cream">
+                    <div class="card-body">
+                       <p>Ice-cream</p>
+                    </div>
+                   </div>
+                   </a>
+                </div>
+
+            </div>
+          <!--categories ends here-->
+          <br><br>
+          <div>
+            <h3>Top Picks</h3>
+            <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Irish Chocolate Cold Coffee</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 75</td>
+                    </tr>
+                    <tr>
+                        <td>Pink Sauce Pasta</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 110</td>
+                    </tr>
+                    <tr>
+                        <td>Peri Peri Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 135</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate Cold Coffee</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 55</td>
+                    </tr>
+                    <tr>
+                        <td>Paneer Tikka Burger</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 120</td>
+                    </tr>
+                    <tr>
+                        <td>Butterscotch IceCream</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 95</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+
+            <br><br>
+          <div id="coffee">
+            <h3>Coffee</h3>
+            <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Classic Cold Coffee</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 45</td>
+                    </tr>
+                    <tr>
+                        <td>Hot Coffee</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 50</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate Cold Coffee</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 55</td>
+                    </tr>
+                    <tr>
+                        <td>Irish Chocolate Cold Coffee</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 75</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+
+            <br><br>
+            <div id="pasta">
+            <h3>Pasta</h3>
+            <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Red Sauce Pasta</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 80</td>
+                    </tr>
+                    <tr>
+                        <td>White Sauce Pasta</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 99</td>
+                    </tr>
+                    <tr>
+                        <td>Pink Sauce Pasta</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 110</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+        <br><br>
+          <div id="pizza">
+            <h3>Pizza</h3>
+            <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Classic Cheesy Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 100</td>
+                    </tr>
+                    <tr>
+                        <td>Farm House Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 120</td>
+                    </tr>
+                    <tr>
+                        <td>Mushroom Olive Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 140</td>
+                    </tr>
+                    <tr>
+                        <td>Peri Peri Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 135</td>
+                    </tr>
+                    <tr>
+                        <td>Paneer Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 145</td>
+                    </tr>
+                    <tr>
+                        <td>Chilly Paneer Pizza</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 150</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          </div>
+
+          <br><br>
+          <div id="burger">
+            <h3>Burger</h3>
+            <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cheesy Classic Burger</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 85</td>
+                    </tr>
+                    <tr>
+                        <td>Paneer Tikka Burger</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 120</td>
+                    </tr>
+                    <tr>
+                        <td>Spicy Tandoori Burger</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 165</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Burger</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 145</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          </div>
+
+          <br><br>
+          <div id="icecream">
+            <h3>Ice-Cream</h3>
+            <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vanilla</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 55</td>
+                    </tr>
+                    <tr>
+                        <td>Classic Chocolate</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 75</td>
+                    </tr>
+                    <tr>
+                        <td>Butterscotch</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 95</td>
+                    </tr>
+                    <tr>
+                        <td>BlueBerry</td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 110</td>
+                    </tr>
+                    <tr>
+                        <td>Strawberry </td>
+                        <td><span><i class="fa fa-inr" aria-hidden="true"></i></span> 120</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+          </div>
+        </div>
+          
+    <!--Social media links-->
+     <div style="display:flex;font-size: large;">
+        <a class="nav-link text-warning bg-dark rounded-circle" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="nav-link text-warning bg-dark rounded-circle" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="nav-link text-warning bg-dark rounded-circle" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+     </div> 
+    </div>
+       
+</body>
+</html>
